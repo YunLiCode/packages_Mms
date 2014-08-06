@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_smiley_texts">
+        <item>:-)</item>
+        <item>:-(</item>
+        <item>;-)</item>
+        <item>:-P</item>
+        <item>=-O</item>
+        <item>:-*</item>
+        <item>:O</item>
+        <item>B-)</item>
+        <item>:-$</item>
+        <item>:-!</item>
+        <item>:-[</item>
+        <item>O:-)</item>
+        <item>:-\\</item>
+        <item>":'("</item>
+        <item>:-X</item>
+        <item>:-D</item>
+        <item>o_O</item>
+        <item>&lt;3</item>
+        <item>x-(</item>
+        <item>:-/</item>
+        <item>:-I</item>
+    </string-array>
+    <string-array name="default_smiley_names">
+        <item>Happy</item>
+        <item>Sad</item>
+        <item>Winking</item>
+        <item>Tongue sticking out</item>
+        <item>Surprised</item>
+        <item>Kissing</item>
+        <item>Yelling</item>
+        <item>Cool</item>
+        <item>Money mouth</item>
+        <item>Foot in mouth</item>
+        <item>Embarrassed</item>
+        <item>Angel</item>
+        <item>Undecided</item>
+        <item>Crying</item>
+        <item>Lips are sealed</item>
+        <item>Laughing</item>
+        <item>Confused</item>
+        <item>Heart</item>
+        <item>Mad</item>
+        <item>Smirk</item>
+        <item>Poker face</item>
+    </string-array>
+    <string-array name="empty_subject_strings">
+        <item>no subject</item>
+    </string-array>
+    <string-array name="pre_define_message_template">
+        <item>"I'll call you back later."</item>
+        <item>"I am in conference. I'll call you back later."</item>
+        <item>Please call me later.</item>
+        <item>Will you please call me back?</item>
+    </string-array>
+    <string-array name="save_time">
+        <item>@string/mms_max</item>
+        <item>@string/mms_one_week</item>
+        <item>@string/mms_two_days</item>
+    </string-array>
+    <string-array name="save_time_values">
+        <item>0</item>
+        <item>604800</item>
+        <item>172800</item>
+    </string-array>
+    <string-array name="entries_cdma_priority">
+        <item>@string/cdma_priority_normal</item>
+        <item>@string/cdma_priority_interactive</item>
+        <item>@string/cdma_priority_urgent</item>
+        <item>@string/cdma_priority_emergency</item>
+    </string-array>
+    <string-array name="values_cdma_priority">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="select_dialog_items">
+        <item>1 second</item>
+        <item>2 seconds</item>
+        <item>3 seconds</item>
+        <item>4 seconds</item>
+        <item>5 seconds</item>
+        <item>6 seconds</item>
+        <item>7 seconds</item>
+        <item>8 seconds</item>
+        <item>9 seconds</item>
+        <item>10 seconds</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="prefEntries_vibrateWhen">
+        <item>Always</item>
+        <item>Only when silent</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="prefValues_vibrateWhen">
+        <item>always</item>
+        <item>silent</item>
+        <item>never</item>
+    </string-array>
+    <string-array name="prefEntries_priority">
+        <item>Low</item>
+        <item>Normal</item>
+        <item>High</item>
+    </string-array>
+    <string-array name="prefValues_priority">
+        <item>128</item>
+        <item>129</item>
+        <item>130</item>
+    </string-array>
+    <string-array name="prefEntries_expiry">
+        <item>Determined by net</item>
+        <item>One week</item>
+        <item>Two days</item>
+        <item>One hour</item>
+    </string-array>
+    <string-array name="prefValues_expiry">
+        <item>259200</item>
+        <item>604800</item>
+        <item>172800</item>
+        <item>3600</item>
+    </string-array>
+    <string-array name="prefEntries_storage_location">
+        <item>SIM/UIM Card</item>
+        <item>Phone</item>
+    </string-array>
+    <string-array name="prefValues_storage_location">
+        <item>card</item>
+        <item>phone</item>
+    </string-array>
+</resources>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextAppearance">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textColorHighlight">#ffff9200</item>
+        <item name="android:textColorHint">?android:textColorHint</item>
+        <item name="android:textColorLink">#ff5c5cff</item>
+    </style>
+    <style name="TextAppearance.SearchResult" parent="@style/TextAppearance">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+        <item name="android:textColorHint">?android:textColorHintInverse</item>
+    </style>
+    <style name="TextAppearance.SearchResult.Title" parent="@style/TextAppearance.SearchResult">
+        <item name="android:textSize">16.0sp</item>
+    </style>
+    <style name="TextAppearance.SearchResult.Subtitle" parent="@style/TextAppearance.SearchResult">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textColor">?android:textColorSecondaryInverse</item>
+    </style>
+    <style name="MmsPreferenceTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionModeCutDrawable">@android:drawable/ic_menu_cut_holo_light</item>
+        <item name="android:actionModeCopyDrawable">@android:drawable/ic_menu_copy_holo_light</item>
+        <item name="android:actionModePasteDrawable">@android:drawable/ic_menu_paste_holo_light</item>
+        <item name="android:actionModeSelectAllDrawable">@android:drawable/ic_menu_selectall_holo_light</item>
+        <item name="android:actionModeShareDrawable">@android:drawable/ic_menu_share_holo_light</item>
+        <item name="android:actionModeFindDrawable">@android:drawable/ic_menu_find_holo_light</item>
+        <item name="android:actionModeWebSearchDrawable">@android:drawable/ic_menu_search_holo_light</item>
+    </style>
+    <style name="MmsHoloTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/MmsActionBar</item>
+        <item name="android:actionBarSize">50.0dip</item>
+    </style>
+    <style name="MmsHoloTheme.windowTranslucent" parent="@style/MmsHoloTheme">
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="MmsActionTitleTextTextAppearance">
+        <item name="android:textSize">20.0dip</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="MmsActionSubTitleTextAppearance">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="MmsActionBar" parent="@android:style/Widget.ActionBar">
+        <item name="android:icon">@drawable/ic_launcher_smsmms</item>
+        <item name="android:background">#99000000</item>
+        <item name="android:titleTextStyle">@style/MmsActionTitleTextTextAppearance</item>
+        <item name="android:subtitleTextStyle">@style/MmsActionSubTitleTextAppearance</item>
+        <item name="android:backgroundSplit">@drawable/yep_actionbar_bottom_background</item>
+    </style>
+    <style name="WidgetTitle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">#ff333333</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="NotificationPrimaryText">
+        <item name="android:textColor">#ffcccccc</item>
+    </style>
+    <style name="MmsDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <style name="NotificationSecondaryText">
+        <item name="android:textColor">#ff666666</item>
+    </style>
+    <style name="NotificationSubjectText">
+        <item name="android:textColor">#ff999999</item>
+    </style>
+    <style name="separator_style">
+        <item name="android:background">@drawable/isms_chat_split_line</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1.0dip</item>
+    </style>
+    <style name="bubble_name_separator_style" parent="@style/separator_style">
+        <item name="android:layout_marginBottom">8.0dip</item>
+    </style>
+    <style name="caption_separator_style" parent="@style/bubble_name_separator_style">
+        <item name="android:layout_marginTop">5.0dip</item>
+        <item name="android:layout_marginBottom">5.0dip</item>
+    </style>
+    <style name="Theme.SmsDlgScreen" parent="@android:style/Theme.Holo.Light.Dialog">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="RecipientEditTextView" parent="@android:attr/autoCompleteTextViewStyle">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:background">@null</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">48.0dip</item>
+        <item name="android:lineSpacingExtra">@dimen/line_spacing_extra</item>
+        <item name="android:inputType">textMultiLine|textEmailAddress</item>
+        <item name="android:imeOptions">actionNext|flagNoFullscreen</item>
+        <item name="android:dropDownHorizontalOffset">-16.0dip</item>
+        <item name="android:dropDownVerticalOffset">-6.0dip</item>
+    </style>
+</resources>

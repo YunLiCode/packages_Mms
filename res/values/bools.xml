@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="composemsg_menu_add_contact">false</bool>
+    <bool name="use_pop_style">false</bool>
+    <bool name="show_ct_cust_a_version">true</bool>
+    <bool name="use_yep_default_retry_scheme">true</bool>
+</resources>

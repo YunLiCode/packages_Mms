@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="text_hairline">#ffcccccc</color>
+    <color name="message_count_color">#66333333</color>
+    <color name="timestamp_color">#bf000000</color>
+    <color name="unread_bgcolor">#ffffffff</color>
+    <color name="read_bgcolor">#ffeeeeee</color>
+    <color name="widget_sender_text_color_read">#ff555555</color>
+    <color name="widget_sender_text_color_unread">#ff333333</color>
+    <color name="widget_subject_text_color_read">#ff777777</color>
+    <color name="widget_subject_text_color_unread">#ff555555</color>
+    <color name="holo_light_background">#ffe8e8e8</color>
+    <color name="dlg_divider_color">#ff33b5e5</color>
+    <color name="conv_info_color">#ff333333</color>
+    <color name="yun">#00000000</color>
+</resources>
