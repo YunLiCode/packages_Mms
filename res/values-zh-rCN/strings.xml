@@ -22,9 +22,9 @@
     <string name="view_message_details">查看详情</string>
     <string name="view_delivery_report">查看报告</string>
     <string name="delete_message">删除</string>
-    <string name="sent_on">发送时间：%s</string>
+    <string name="sent_on">%s</string>
     <string name="expire_on">过期时间：%s</string>
-    <string name="received_on">接收时间：%s</string>
+    <string name="received_on">%s</string>
     <string name="kilobyte">KB</string>
     <string name="undelivered_msg_dialog_title">信息未传送出去</string>
     <string name="undelivered_msg_dialog_body">"无法发送此信息。

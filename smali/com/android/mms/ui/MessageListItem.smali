@@ -26,7 +26,7 @@
 
 .field private isSimMessage:Z
 
-.field private mAvatar:Lcom/android/mms/ui/QuickContactDivot;
+.field private mAvatar:Lcom/android/mms/ui/RoundImageView2;
 
 .field private mBodyTextView:Landroid/widget/TextView;
 
@@ -2586,11 +2586,11 @@
     if-eqz p2, :cond_3
 
     .line 471
-    iget-object v2, p0, Lcom/android/mms/ui/MessageListItem;->mAvatar:Lcom/android/mms/ui/QuickContactDivot;
+    iget-object v2, p0, Lcom/android/mms/ui/MessageListItem;->mAvatar:Lcom/android/mms/ui/RoundImageView2;
 
     sget-object v3, Landroid/provider/ContactsContract$Profile;->CONTENT_URI:Landroid/net/Uri;
 
-    invoke-virtual {v2, v3}, Lcom/android/mms/ui/QuickContactDivot;->assignContactUri(Landroid/net/Uri;)V
+    invoke-virtual {v2, v3}, Lcom/android/mms/ui/RoundImageView2;->assignContactUri(Landroid/net/Uri;)V
 
     .line 482
     .end local v1    # "contact":Lcom/android/mms/data/Contact;
@@ -2618,9 +2618,9 @@
 
     .line 485
     :cond_1
-    iget-object v2, p0, Lcom/android/mms/ui/MessageListItem;->mAvatar:Lcom/android/mms/ui/QuickContactDivot;
+    iget-object v2, p0, Lcom/android/mms/ui/MessageListItem;->mAvatar:Lcom/android/mms/ui/RoundImageView2;
 
-    invoke-virtual {v2, v0}, Lcom/android/mms/ui/QuickContactDivot;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {v2, v0}, Lcom/android/mms/ui/RoundImageView2;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
     .line 486
     return-void
@@ -2645,19 +2645,19 @@
     if-eqz v2, :cond_4
 
     .line 474
-    iget-object v2, p0, Lcom/android/mms/ui/MessageListItem;->mAvatar:Lcom/android/mms/ui/QuickContactDivot;
+    iget-object v2, p0, Lcom/android/mms/ui/MessageListItem;->mAvatar:Lcom/android/mms/ui/RoundImageView2;
 
     invoke-virtual {v1}, Lcom/android/mms/data/Contact;->getUri()Landroid/net/Uri;
 
     move-result-object v3
 
-    invoke-virtual {v2, v3}, Lcom/android/mms/ui/QuickContactDivot;->assignContactUri(Landroid/net/Uri;)V
+    invoke-virtual {v2, v3}, Lcom/android/mms/ui/RoundImageView2;->assignContactUri(Landroid/net/Uri;)V
 
     goto :goto_1
 
     .line 476
     :cond_4
-    iget-object v2, p0, Lcom/android/mms/ui/MessageListItem;->mAvatar:Lcom/android/mms/ui/QuickContactDivot;
+    iget-object v2, p0, Lcom/android/mms/ui/MessageListItem;->mAvatar:Lcom/android/mms/ui/RoundImageView2;
 
     invoke-virtual {v1}, Lcom/android/mms/data/Contact;->getNumber()Ljava/lang/String;
 
@@ -2665,7 +2665,7 @@
 
     const/4 v4, 0x1
 
-    invoke-virtual {v2, v3, v4}, Lcom/android/mms/ui/QuickContactDivot;->assignContactFromPhone(Ljava/lang/String;Z)V
+    invoke-virtual {v2, v3, v4}, Lcom/android/mms/ui/RoundImageView2;->assignContactFromPhone(Ljava/lang/String;Z)V
 
     goto :goto_1
 
@@ -3109,9 +3109,9 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/android/mms/ui/QuickContactDivot;
+    check-cast v1, Lcom/android/mms/ui/RoundImageView2;
 
-    iput-object v1, p0, Lcom/android/mms/ui/MessageListItem;->mAvatar:Lcom/android/mms/ui/QuickContactDivot;
+    iput-object v1, p0, Lcom/android/mms/ui/MessageListItem;->mAvatar:Lcom/android/mms/ui/RoundImageView2;
 
     .line 204
     const v1, 0x7f0a005a

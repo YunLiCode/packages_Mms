@@ -18,7 +18,7 @@
 # instance fields
 .field private mAttachmentView:Landroid/view/View;
 
-.field private mAvatarView:Landroid/widget/QuickContactBadge;
+.field private mAvatarView:Lcom/android/mms/ui/RoundImageView;
 
 .field private mConversation:Lcom/android/mms/data/Conversation;
 
@@ -657,25 +657,25 @@
     if-eqz v2, :cond_1
 
     .line 168
-    iget-object v2, p0, Lcom/android/mms/ui/ConversationListItem;->mAvatarView:Landroid/widget/QuickContactBadge;
+    iget-object v2, p0, Lcom/android/mms/ui/ConversationListItem;->mAvatarView:Lcom/android/mms/ui/RoundImageView;
 
     invoke-virtual {v1}, Lcom/android/mms/data/Contact;->getUri()Landroid/net/Uri;
 
     move-result-object v3
 
-    invoke-virtual {v2, v3}, Landroid/widget/QuickContactBadge;->assignContactUri(Landroid/net/Uri;)V
+    invoke-virtual {v2, v3}, Lcom/android/mms/ui/RoundImageView;->assignContactUri(Landroid/net/Uri;)V
 
     .line 183
     .end local v1    # "contact":Lcom/android/mms/data/Contact;
     :goto_1
-    iget-object v2, p0, Lcom/android/mms/ui/ConversationListItem;->mAvatarView:Landroid/widget/QuickContactBadge;
+    iget-object v2, p0, Lcom/android/mms/ui/ConversationListItem;->mAvatarView:Lcom/android/mms/ui/RoundImageView;
 
-    invoke-virtual {v2, v0}, Landroid/widget/QuickContactBadge;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {v2, v0}, Lcom/android/mms/ui/RoundImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
     .line 184
-    iget-object v2, p0, Lcom/android/mms/ui/ConversationListItem;->mAvatarView:Landroid/widget/QuickContactBadge;
+    iget-object v2, p0, Lcom/android/mms/ui/ConversationListItem;->mAvatarView:Lcom/android/mms/ui/RoundImageView;
 
-    invoke-virtual {v2, v5}, Landroid/widget/QuickContactBadge;->setVisibility(I)V
+    invoke-virtual {v2, v5}, Lcom/android/mms/ui/RoundImageView;->setVisibility(I)V
 
     .line 185
     return-void
@@ -708,25 +708,25 @@
     if-eqz v2, :cond_2
 
     .line 173
-    iget-object v2, p0, Lcom/android/mms/ui/ConversationListItem;->mAvatarView:Landroid/widget/QuickContactBadge;
+    iget-object v2, p0, Lcom/android/mms/ui/ConversationListItem;->mAvatarView:Lcom/android/mms/ui/RoundImageView;
 
     invoke-virtual {v1}, Lcom/android/mms/data/Contact;->getNumber()Ljava/lang/String;
 
     move-result-object v3
 
-    invoke-virtual {v2, v3, v4}, Landroid/widget/QuickContactBadge;->assignContactFromEmail(Ljava/lang/String;Z)V
+    invoke-virtual {v2, v3, v4}, Lcom/android/mms/ui/RoundImageView;->assignContactFromEmail(Ljava/lang/String;Z)V
 
     goto :goto_1
 
     .line 175
     :cond_2
-    iget-object v2, p0, Lcom/android/mms/ui/ConversationListItem;->mAvatarView:Landroid/widget/QuickContactBadge;
+    iget-object v2, p0, Lcom/android/mms/ui/ConversationListItem;->mAvatarView:Lcom/android/mms/ui/RoundImageView;
 
     invoke-virtual {v1}, Lcom/android/mms/data/Contact;->getNumber()Ljava/lang/String;
 
     move-result-object v3
 
-    invoke-virtual {v2, v3, v4}, Landroid/widget/QuickContactBadge;->assignContactFromPhone(Ljava/lang/String;Z)V
+    invoke-virtual {v2, v3, v4}, Lcom/android/mms/ui/RoundImageView;->assignContactFromPhone(Ljava/lang/String;Z)V
 
     goto :goto_1
 
@@ -738,11 +738,11 @@
 
     .line 181
     .restart local v0    # "avatarDrawable":Landroid/graphics/drawable/Drawable;
-    iget-object v2, p0, Lcom/android/mms/ui/ConversationListItem;->mAvatarView:Landroid/widget/QuickContactBadge;
+    iget-object v2, p0, Lcom/android/mms/ui/ConversationListItem;->mAvatarView:Lcom/android/mms/ui/RoundImageView;
 
     const/4 v3, 0x0
 
-    invoke-virtual {v2, v3}, Landroid/widget/QuickContactBadge;->assignContactUri(Landroid/net/Uri;)V
+    invoke-virtual {v2, v3}, Lcom/android/mms/ui/RoundImageView;->assignContactUri(Landroid/net/Uri;)V
 
     goto :goto_1
 .end method
@@ -1205,9 +1205,9 @@
 
     move-result-object v0
 
-    check-cast v0, Landroid/widget/QuickContactBadge;
+    check-cast v0, Lcom/android/mms/ui/RoundImageView;
 
-    iput-object v0, p0, Lcom/android/mms/ui/ConversationListItem;->mAvatarView:Landroid/widget/QuickContactBadge;
+    iput-object v0, p0, Lcom/android/mms/ui/ConversationListItem;->mAvatarView:Lcom/android/mms/ui/RoundImageView;
 
     .line 101
     const v0, 0x7f0a002e
