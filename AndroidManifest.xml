@@ -28,7 +28,7 @@
         <uses-library android:name="com.qrd.wappush" android:required="false"/>
         <service android:exported="false" android:name=".transaction.TransactionService"/>
         <service android:exported="false" android:name=".transaction.SmsReceiverService"/>
-        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/app_label" android:launchMode="singleTop" android:name=".ui.ConversationList" android:theme="@android:style/Theme.Holo.Light" android:uiOptions="splitActionBarWhenNarrow">
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/app_label" android:launchMode="singleTop" android:name=".ui.ConversationList" android:theme="@style/MmsHoloTheme" android:uiOptions="splitActionBarWhenNarrow">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
